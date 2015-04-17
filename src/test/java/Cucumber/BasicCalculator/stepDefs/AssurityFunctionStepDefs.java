@@ -1,4 +1,4 @@
-package Cucumber.BasicCalculator;
+package Cucumber.BasicCalculator.stepDefs;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -14,7 +14,7 @@ import java.util.NoSuchElementException;
 public class AssurityFunctionStepDefs {
 
 	public WebDriver driver;
-	
+
 	@Given("^I go to Assuirty Home page$")
 	public void goToAssuirtyHomepage() {
 		this.driver=new FirefoxDriver();
