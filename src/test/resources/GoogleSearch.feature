@@ -24,4 +24,6 @@ Scenario: Search for Assurity in Google Search
 	When I type 'Ruby' in search field
 	And I click the search button
 	Then I see the results for 'Ruby'
-	
+
+
+#clean test "-Dcucumber.options=--tags @Sum --format json-pretty:target/cucumber-report-myReport.json --format html:target/cucumber-html-report-myReport"
